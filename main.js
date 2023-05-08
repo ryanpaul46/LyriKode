@@ -21,7 +21,7 @@ searchButton.addEventListener('click', () => {
         <div>
           <h2>${track.track.track_name}</h2>
           <p>By ${track.track.artist_name}</p>
-          <a href="${track.track.track_share_url}">View Lyrics</a>
+          <a href="${track.track.track_share_url}" target="_blank">View Lyrics</a>
         </div>
       `).join('');
       console.log(data)
