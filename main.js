@@ -5,12 +5,13 @@ import 'bootstrap';
 const searchInput = document.getElementById('search-input');
 const searchButton = document.getElementById('search-button');
 const searchResults = document.getElementById('search-results');
+const API_KEY = "088685c2a67e77bd14b598ddd8d14d66";
 
 searchButton.addEventListener('click', () => {
   const searchTerm = searchInput.value.trim();
   if (!searchTerm) return;
 
-  const url = `https://api.musixmatch.com/ws/1.1/track.search?q=${searchTerm}&apikey=088685c2a67e77bd14b598ddd8d14d66`;
+  const url = `https://api.musixmatch.com/ws/1.1/track.search?q=${searchTerm}&apikey=${API_KEY}`;
 
   fetch(url)
   
