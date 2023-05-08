@@ -7,7 +7,7 @@
 
 body{
    width: 100%;
-   background-image: url(/img/lyricswebsitebg.jpg) ;
+   background-image: url(./img/lyricswebsitebg.jpg) ;
    background-repeat: no-repeat;
    background-attachment: scroll;
    background-size: cover;
